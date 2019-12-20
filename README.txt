@@ -21,5 +21,7 @@ PERCENTAGES FOR THE GRAPHS:
 The number is the percentage of wolbachia-infected mosquitoes to add to the population. 
 They are only added when the weekly average temperature is between 29 and 32.5 degrees celsius. 
 
-ALSO:
-This program is still under development, any input would be desired. 
+DEPENDENCIES:
+matplotlib, pysimplegui, tkinter, numpy, json, and urllib3.
+
+This program is still under development, any input would be greatly appreciated. 
