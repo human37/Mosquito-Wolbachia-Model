@@ -41,7 +41,12 @@ fig = plt.gcf()
 figure_x, figure_y, figure_w, figure_h = fig.bbox.bounds
 #the GUI layout, each list is a line on the program. 
 layout = [     [sg.Text('Select the Location:'),
-                sg.Combo(['Select Below:','Salt Lake City, UT','Bangkok, Thailand','Los Angeles, CA','Casablanca, Morocco','London, England'], key='location'),
+                sg.Combo(['Select Below:',
+                          'Salt Lake City, UT',
+                          'Bangkok, Thailand',
+                          'Los Angeles, CA',
+                          'Casablanca, Morocco',
+                          'London, England'], key='location'),
                 sg.Text('  ',size=(5,1)),
                 sg.Text('Percentage for Graph 1:'),
                 sg.Input(key='inputwolpercent1',size=(3,1)),
