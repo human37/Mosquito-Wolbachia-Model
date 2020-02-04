@@ -169,9 +169,4 @@ class MosquitoWithWolbachia:
                     self.Sw[i]=self.Sw[i-1]+(self.maturationr*self.tranmaternal*(self.Aw[i-1]/2)-(self.bw[i-1]*self.thm[i-1]*self.Ih[i-1]+1.1*self.muN[i-1])*self.Sw[i-1])
                 self.Ew[i]=self.Ew[i-1]+((self.bw[i-1]*self.thm[i-1]*self.Ih[i-1]*self.Sw[i-1])-(self.maturationr+1.1*self.muN[i-1]))*self.Ew[i-1]
                 self.Iw[i]=self.Iw[i-1]+(self.maturationr*self.Ew[i-1]-1.1*self.muN[i-1]*self.Iw[i-1])
-'''
-tempdata=weatherapi.calltemp('74733')
-a=MosquitoWithWolbachia(tempdata,1)
-a.runModel()
-a.plotGraph()
-'''
+                
