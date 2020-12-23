@@ -1,9 +1,9 @@
-QUICK OVERVIEW:
+# QUICK OVERVIEW:
 This program models disease transmission between mosquitoes and humans.
 The disease choosen for this model is the Dengue virus.
 In order to run the program, install dependencies, and run 'gui.py'
 
-ABSTRACT:
+## ABSTRACT:
 Dengue fever is one of the most common mosquito-borne infections, 
 and it is commonly spread in tropical climates. 
 It can only be spread from the bite of a female Aedes aegypti mosquito. 
@@ -17,11 +17,11 @@ Wolbachia-infected mosquitoes should be released in order to be as cost-effectiv
 Furthermore, we designed a robust GUI that could be used by mosquito abatement centers,
 in order to determine optimal strategies to most efficiently mitigate the disease outbreaks.
 
-PERCENTAGES FOR THE GRAPHS:
+## PERCENTAGES FOR THE GRAPHS:
 The number is the percentage of wolbachia-infected mosquitoes to add to the population. 
 They are only added when the weekly average temperature is between 29 and 32.5 degrees celsius. 
 
-DEPENDENCIES:
+## DEPENDENCIES:
 matplotlib, pysimplegui, tkinter, numpy, json, and urllib3.
 
 This program is still under development, any input would be greatly appreciated. 
